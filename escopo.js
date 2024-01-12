@@ -14,12 +14,13 @@ console.log(teste);
 // Let
 // Variáveis do tipo let possuem escopo de bloco. 
 // Isso significa que elas só existem dentro do bloco de código ({}) onde foram declaradas.
-
-if (i == 0) {
-    var x = 3;
-}
-if (i == 1) {
-    let y = 5;
+for(let i = -1; i < 2; i++){
+    if (i == 0) {
+        var x = 3;
+    }
+    if (i == 1) {
+        let y = 5;
+    }
 }
 console.log(x); // X será encontrado, já que foi declarado como var
 console.log(y); // Y não será encontrado, já que foi declarado como let

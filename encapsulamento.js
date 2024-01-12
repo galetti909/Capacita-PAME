@@ -1,4 +1,4 @@
-//JavaScipt não tem ferramentas iideais para encapsulamento
+//JavaScipt não tem ferramentas ideais para encapsulamento
 
 
 class Pessoa{

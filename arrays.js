@@ -10,7 +10,7 @@ let lista = [1, "João", false, 4, 5]
 // Para acessar um valor dentro de uma lista, é necessário escrever o nome da lista com a posição do elemento
 // entre colchetes ([]).
 
-let primeiros3Elementos = lista[3]
+let terceiroElemento = lista[2]
 // Valor final de primeiros3Elementos: 4
 
 // Para modificar um elemento da lista, basta atribuí-lo como se fosse uma variável.
@@ -44,9 +44,9 @@ matriz.unshift([3, 2, 1])
 // Array.slice(inicio, fim) - retorna uma parte de uma lista. 
 // O primeiro parâmetro é o índice do primeiro elemento e o segundo é o índice do último elemento + 1.
 let parteDaLista = matriz.slice(0, 2)
-// Valor final de parteDaLista: [[3, 2, 1], [4, 5, 6]] 
+// Valor final de parteDaLista: [[3, 2, 1], [4, 5, 6]]
 
 // Array.indexOf(elemento) - retorna a posição da primeira aparição do elemento especificado na lista.
-let lista_2 = ["eu", "sou", "lindo"]
+let lista_2 = ["eu", "sou", "lindo","eu"]
 let posicao = matriz.indexOf("lindo")
 //Valor final de posicao: 2

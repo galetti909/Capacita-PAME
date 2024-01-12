@@ -50,8 +50,8 @@ var menorOuIgual = num1 <= num2;
 
 //Operadores Lógicos
 
-var num1 = 3;
-var num2 = -3;
+num1 = 3;
+num2 = -3;
 
 // E/AND (&&)
 var resultado = num1 > 0 && num2 > 0;

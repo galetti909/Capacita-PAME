@@ -6,7 +6,6 @@ if (x > 3) { // A palavra "if" é utilizada para realizar essa verificação. A 
     console.log("É maior que 3");
 }
 
-
 // Caso a expressão seja falsa (false), é possível fazer verificações alternativas com a expressão "else if".
 var y = 2;
 if (y > 3) {

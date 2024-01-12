@@ -26,6 +26,6 @@ class Atleta extends Pessoa{
     }
 }
 
-//eu = new Atleta('João',20,1.75)
-//console.log(eu)
-//eu.correr()
+eu = new Atleta('João',20,1.75)
+console.log(eu)
+eu.correr()

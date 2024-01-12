@@ -26,7 +26,7 @@ var quadradoDe5 = calculaPotencia(5, 2);
 // programa não conseguirá encontrá-las. Observe o exemplo:
 
 function divisaoPor2(num1) {
-    let resultado = num1/2;
+    var resultado = num1/2;
     return resultado;
 }
 

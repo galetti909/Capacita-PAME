@@ -1,4 +1,5 @@
 //Para criar uma classe nova em JS usa-se o prefixo class
+
 class Pessoa{ //Diferente do que com funções, os parâmetros são definidos no construtor.
     constructor(nome, idade, altura){ // O constructor é um método especial pré definido por onde se indicam os paramêtros para criação de uma instância
         this.nome = nome; //A palavra chave "this" é usada sempre que se quer tratar de algo relacionado a uma instância da classe
@@ -24,6 +25,6 @@ let minha_altura =  1.75
 //Sempre que se quiser criar uma instância de uma classe deve ser usado o prefixo new
 eu = new Pessoa(meu_nome,minha_idade,minha_altura)//A instância será armazenada na variável "eu"
 
-//console.log(eu)
-//console.log(eu.altura)
-//eu.comer()
+console.log(eu)
+console.log(eu.altura)
+eu.comer()
