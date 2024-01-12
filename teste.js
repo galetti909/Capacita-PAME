@@ -1,1 +1,1 @@
-//Todos os trainees PAME serão aprovados
+//Todos os trainees do PAME serão aprovados
