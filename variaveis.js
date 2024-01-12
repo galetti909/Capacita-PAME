@@ -14,3 +14,4 @@ var x;
 
 x = 5;
 // Se ela já foi declarada, o prefixo (var) não deve ser escrito.
+//Teste GitHub
